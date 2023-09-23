@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logoIv"
+        android:layout_width="245dp"
+        android:layout_height="251dp"
+        android:scaleType="fitCenter"
+        android:layout_above="@+id/appNameTV"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo" />
+
+    <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/appNameTV"
+       android:layout_centerInParent="true"
+       android:text="@string/app_name"
+       android:textSize="22sp"
+        android:textAlignment="center"
+       android:fontFamily="@font/new_x_digital_tfb"
+       android:textColor="@color/dark1"/>
+
+</RelativeLayout>

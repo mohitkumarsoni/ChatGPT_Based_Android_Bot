@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+<!--    for light theme -->
+    <color name="light1">#F8EDE3</color>
+    <color name="light2">#DFD3C3</color>
+    <color name="light3">#D0B8A8</color>
+    <color name="light4">#7D6E83</color>
+
+<!--    for dark theme -->
+    <color name="dark1">#3C4245</color>
+    <color name="dark2">#5F6769</color>
+    <color name="dark3">#719192</color>
+    <color name="dark4">#DFCDC3</color>
+
+</resources>

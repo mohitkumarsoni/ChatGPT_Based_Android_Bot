@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatBotPage_Activity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chatRv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="4dp"
+        style="@style/background"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@+id/bottomInputLinearLayout"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcomeMsg"
+        android:text="@string/welcome_to_chatbot_by_mohit_nfeel_free_to_ask_anything"
+        android:fontFamily="@font/new_x_digital_tfb"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:layout_centerInParent="true"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/bottomInputLinearLayout"
+        style="@style/background"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:padding="2dp"
+        android:layout_alignParentBottom="true">
+
+        <EditText
+            android:id="@+id/inputEt"
+            style="@style/inputEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="6dp"
+            android:layout_toStartOf="@+id/sendBtn"
+            android:autofillHints="custom"
+            android:hint="@string/ask_anything"
+            android:inputType="text"
+            android:padding="8dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp" />
+
+        <ImageButton
+            android:id="@+id/sendBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="4dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/baseline_arrow_forward_24"
+            android:contentDescription="@string/send_button" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
