@@ -8,3 +8,5 @@ Library used in this project is OkHttp.
 
     
 incase you have to run Apk "OpenAi's ApiKey may have been expired" , is Apk is not working, kindly generate new Api key by creating your "OpenAi" account and paste it Request.Builder().
+
+https://github.com/mohitkumarsoni/ChatGPT_Based_Android_Bot/assets/108524949/9f9fcbae-023e-4fec-af1d-cd7e50a07e75
